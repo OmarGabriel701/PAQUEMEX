@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PaqueMEX - Registrarse</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script>
+    $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+    });
+  </script>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-sm navbar-dark">
+  <div class="container porciento95">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="paqueteria-link" href="/paqueteria/">PAQUEMEX</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<br />
+<div class="container margenTop porciento90">
+  <h1>Registro</h1>
+  <h6>Ingresa tus datos para realizar el registro en el sitio.</h6>
+</div>
+
+
+<div class="container margen-Top porciento60">
+  <form method="post" action="#" id="formulario">
+        <div class="form-group row">
+      <label for="nombre" class="col-sm-2 col-form-label">Nombre</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="nombre" required="required">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="nombre" class="col-sm-2 col-form-label">Usuario</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="user" required="required">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="nombre" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="correo" required="required">
+      </div>
+    </div>
+   <div class="form-group row">
+      <label for="nombre" class="col-sm-2 col-form-label">Contraseña</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="correo" required="required">
+      </div>
+    </div>    
+
+    <button type="submit" class="btn btn-success"><a href="index1.html"> Cancelar</a></button>
+    <button type="submit" class="btn btn-success">Registrar</button>
+  </form>
+</div>
+
+</body>
+</html>
